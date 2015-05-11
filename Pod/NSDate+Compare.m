@@ -44,4 +44,9 @@
     return [self isGreaterDate:date] || [self isEqualToDate:date];
 }
 
+#pragma mark - addition
+- (BOOL)isEqualToMonth:(NSDate *)date{
+    return self.year == date.year && self.month == date.month;
+}
+
 @end

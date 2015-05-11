@@ -17,4 +17,7 @@
 - (BOOL)isLessOrEqualToDate:(NSDate *)date;
 - (BOOL)isGreaterOrEqualToDate:(NSDate *)date;
 
+#pragma mark - addition
+- (BOOL)isEqualToMonth:(NSDate *)date;
+
 @end
